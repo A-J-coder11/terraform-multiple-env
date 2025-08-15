@@ -1,0 +1,52 @@
+# Ignore all .tfvars files (commonly used for Terraform variable files)
+*.tfvars
+
+# Ignore backup and temp files
+*.tfvars.backup
+*.tfvars.tmp
+*.tfvars.old
+
+# Ignore editor swap files
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore all Terraform files
+*.tf
+*.tfstate
+*.tfstate.*
+*.terraform/
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# Ignore log and debug files
+*.log
+*.out
+*.err
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore OS-specific files
+ehthumbs.db
+Desktop.ini
+
+# Ignore archive files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore node modules (if present)
+node_modules/
